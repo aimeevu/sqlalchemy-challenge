@@ -31,11 +31,11 @@ This module utilizes a mix of tools such as Python, SQLAlchemy, Pandas, Matplotl
 <p>For this part, we use Flask to create API calls for the data that we created queries for in Part 1.</p>
 
 <p>Here are the available routes that we needed to create:</p>
-*/api/v1.0/precipitation
-*/api/v1.0/stations
-*/api/v1.0/tobs
-*/api/v1.0/[start: yyyy-mm-dd]
-*/api/v1.0/[start: yyyy-mm-dd]/[end: yyyy-mm-dd]
+<ul><li>/api/v1.0/precipitation</li>
+  <li>/api/v1.0/stations</li>
+  <li>/api/v1.0/tobs</li>
+  <li>/api/v1.0/[start: yyyy-mm-dd]</li>
+  <li>/api/v1.0/[start: yyyy-mm-dd]/[end: yyyy-mm-dd]</li></ul>
 
 <p>The precipitation route lists the dates and precipitation of all results in the database as a dictionary.</p>
 
